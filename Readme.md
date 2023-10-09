@@ -11,27 +11,27 @@ Before running the script, ensure you have the following prerequisites installed
 - `matplotlib` library (for graph generation)
 - `reportlab` library (for PDF generation)
 
-Usage
+## Usage
 
 Step 1 - Clone this repository to your local machine:
 
-         git clone https://github.com/karthik-yml/System-Monitoring-Script.git
+git clone https://github.com/karthik-yml/System-Monitoring-Script.git
 
 Step 2 - Navigate to the project directory:
 
-         cd system-monitoring-script
+cd system-monitoring-script
 
 Step 3 - Install required libraries
 
-         pip install -r requirements.txt
+pip install -r requirements.txt
 
 Step 4 - Run the script:
 
-         sudo python3 system_monitoring.py
+sudo python3 system_monitoring.py
 
 After execution, a PDF report named system_report.pdf will be generated in the project directory.
 
-Report Contents
+## Report Contents
 
 The generated PDF report includes the following sections:
 
@@ -41,11 +41,11 @@ System Information: Timestamps, CPU usages, and RAM usages during data collectio
 
 Open Ports Information: Information about open ports and associated process names and PIDs.
 
-License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
+## Acknowledgments
 
 The script utilizes the psutil library to gather system data.
 
